@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+div{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color:white;
+    font-size: 40px;
+    text-shadow: 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+#one{
+    background-color: #f44336;
+    width:49%;
+    height: 33.33vh;
+}
+
+#two{
+    background-color: #FF9800;
+    width:49%;
+    height: 33.33vh;
+}
+
+#three{
+    background-color: #FFEB3B;
+    width:49%;
+    height: 33.33vh;
+}
+
+#four{
+    background-color: #8BC34A;
+    width:49%;
+    height: 33.33vh;
+}
+
+#five{
+    background-color: #2196F3;
+    width:49%;
+    height: 33.33vh;
+}
+
+#six{
+    background-color: #9C27B0;
+    width:49%;
+    height: 33.33vh;
+}
+
+@media only screen and (min-width:768px){
+
+    #one{
+        width:33%;
+        height: 50vh;
+    }
+    
+    #two{
+        width:33%;
+        height: 50vh;
+    }
+    
+    #three{
+        width:33%;
+        height: 50vh;
+    }
+    
+    #four{
+        width:33%;
+        height: 50vh;
+    }
+    
+    #five{
+        width:33%;
+        height: 50vh;
+    }
+    
+    #six{
+        width:33%;
+        height: 50vh;
+    }
+
+}
